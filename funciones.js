@@ -5,16 +5,16 @@ function grandSlam () {
     let resultado = parseInt(prompt("Elegi el grand slam en el cual deseas apostar: \n 1 - Australian Open \n 2-Roland Garros \n 3- Wimbledon \n 4 Us Open"))
     switch (resultado) {
         case 1:
-            alert("Elegiste el Australian Open")
+            alert("Elegiste el Australian Open. ¡Genial! \n Veremos ahora que opciones de jugadores hay...");
             break;
         case 2:
-            alert("Elegiste Wimbledon")
+            alert("Elegiste Wimbledon. ¡Genial! \n Veremos ahora que opciones de jugadores hay...");
             break;
         case 3:
-            alert("Elegiste Roland Garros")
+            alert("Elegiste Roland Garros. ¡Genial! \n Veremos ahora que opciones de jugadores hay...");
             break;
         case 4:
-            alert("Elegiste el Us Open")
+            alert("Elegiste Us Open. ¡Genial! \n Veremos ahora que opciones de jugadores hay...");
             break;
         default:
             while (resultado<1 || resultado>4) {
@@ -29,19 +29,20 @@ function grandSlam () {
         let resultado = parseInt(prompt("¿Por cual jugador deseas apostar?: \n 1- Medvedev \n 2-Nadal \n 3-Alcaraz \n 4- Tsisipas \n 5-Ruud "));
     
             if (resultado==1) {
-                alert("Elegiste al numero 1 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado) + " pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...")
+                alert("Elegiste al numero 1 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado) + " pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...");
                 
             } else if (resultado==2){
-                alert("Elegiste al numero 2 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...")}
+                alert("Elegiste al numero 2 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...");
+            }
                 
             else if (resultado==3){
-                alert("Elegiste al numero 3 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...")}
+                alert("Elegiste al numero 3 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...");}
                 
             else if (resultado==4){
-                alert("Elegiste al numero 4 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultadoi)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...")}
+                alert("Elegiste al numero 4 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultadoi)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...");}
                 
             else if (resultado==5){
-                alert("Elegiste al numero 5 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...")}
+                alert("Elegiste al numero 5 del mundo. Por cada peso que apuestes, te vas a llevar " + (0.5*resultado)+" pesos adicionales. ¿Deseas confirmar? Te llevaremos para que abones...");}
                 
             else {
                 while(resultado<1 || resultado>5)
